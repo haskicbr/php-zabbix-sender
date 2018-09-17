@@ -12,8 +12,7 @@
         "php": ">=5.3.2"
     },
     "autoload": {
-        "psr-4": { "Net\\Zabbix\\": "src/Net/Zabbix/" },
-        "files": ["src/Net/Zabbix/Sender.php"]
+        "psr-0": { "Net\\Zabbix\\": "src/Net/Zabbix/" }
     }
 }
 
