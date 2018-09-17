@@ -13,7 +13,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Net\\Zabbix\\": "src/Net/Zabbix/"
+            "Net\\": "src/Net/"
         }
     }
 }
