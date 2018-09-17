@@ -1,18 +1,10 @@
 {
-    "name": "okitsu/zabbix-sender",
+    "name": "haskicbr/zabbix-sender",
+    "description": "PSR-4 Autoloader implementation",
+    "license": "unknown",
     "type": "library",
     "homepage": "https://github.com/okitsu/php-zabbix-sender",
-    "license": "unknown",
-    "authors": [
-        {"name": "okitsu", "homepage": "http://twitter.com/okt_t"}
-    ],
-    "description": "Zabbix Sender Client implemented in Pure PHP",
-    "keywords": ["zabbix", "monitoring"],
-    "require": {
-        "php": ">=5.3.2"
-    },
     "autoload": {
-        "psr-0": { "Net\\Zabbix\\": "src/Net/Zabbix/" }
+        "psr-4": { "Net\\Zabbix\\": "src/Net/Zabbix/" }
     }
 }
-
