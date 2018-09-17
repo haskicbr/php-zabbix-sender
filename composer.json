@@ -12,9 +12,10 @@
         "php": ">=5.3.2"
     },
     "autoload": {
-        "psr-4": {
-            "Net\\Zabbix": "src/Net/Zabbix"
-        }
+        "psr-4": { "Net\\": "src/Net/" }
+    },
+    "autoload-dev": {
+        "psr-4": { "Net\\": "src/Net/" }
     }
 }
 
